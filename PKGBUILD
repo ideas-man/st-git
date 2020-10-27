@@ -1,7 +1,7 @@
 # Maintainer: specimen-hub
 
 pkgname=st
-_pkgname=$_pkgname-git
+_pkgname=$pkgname-git
 pkgver=0.8.4
 pkgrel=1
 pkgdesc="Simple terminal from suckless.org"
@@ -11,7 +11,7 @@ license=('MIT')
 depends=('libxft')
 makedepends=('ncurses' 'libxext' 'git')
 optdepends=('dmenu: feed urls to dmenu')
-provides=('st')
+provides=($_pkgname)
 source=('arg.h' 'config.h' 'config.mk' 'LICENSE' 'Makefile'
 	'st.1' 'st.c' 'st.h' 'st.info' 'win.h' 
 	'x.c')
