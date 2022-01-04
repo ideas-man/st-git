@@ -1,7 +1,5 @@
-# Maintainer: specimen-hub
-
-pkgname=st
-_pkgname=$pkgname-git
+_pkgname=st
+pkgname=$_pkgname-git
 pkgver=0.8.4
 pkgrel=1
 pkgdesc="Simple terminal from suckless.org"
