@@ -1,6 +1,6 @@
 _pkgname=st
 pkgname=$_pkgname-git
-pkgver=0.8.4
+pkgver=0.9.2
 pkgrel=1
 pkgdesc="Simple terminal from suckless.org"
 url='https://git.suckless.org/st/'
